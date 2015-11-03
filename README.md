@@ -1,6 +1,6 @@
 # palindrome
 
-A simple NodeJS app written to test if a string is a Palindrome without reversing it. I used Mocha with BDD style tests, istanbul to validate code coverage, NPM to bump the version and create a release so it can link into a node project with NPM, and used Travis CI for CI. 
+A simple NodeJS v4.0.0 app written to test if a string is a Palindrome without reversing it. I used Mocha with BDD style tests, istanbul to validate code coverage, NPM to bump the version and create a release so it can link into a node project with NPM, and used Travis CI for CI. 
 
 [![Build Status](https://travis-ci.org/psenger/palindrome.svg?branch=master)](https://travis-ci.org/psenger/palindrome)
 
