@@ -1,0 +1,32 @@
+{
+  "name": "palindrome",
+  "author": {
+    "name": "Philip Senger",
+    "email": "philip.a.senger@cngrgroup.com"
+  },
+  "description": "A palindrome is a word, phrase, or numbers as strings which reads the same backward or forward. Capital letters, punctuation, and white space are ignored.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "clean": "rm -r ./coverage",
+    "doc": "./node_modules/.bin/jsdoc2md ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psenger/palindrome"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "jsdoc-to-markdown": "^1.2.0",
+    "mocha": "^2.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/psenger/palindromeissues"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
